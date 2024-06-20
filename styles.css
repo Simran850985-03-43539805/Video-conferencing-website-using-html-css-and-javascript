@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+video {
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: black;
+}
+
+#controls {
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
